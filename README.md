@@ -14,16 +14,16 @@ and payments to performance and observability. These days I build games and tool
 
 <table>
 <tr>
-<td width="50%" valign="top"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@a9e5568/assets/digimon.gif" alt="Digimon Survivor"><br><b>Digimon Survivor</b><br><sub>Survivors-style fan game with anime evolutions and 100 AI-drawn characters</sub></td>
-<td width="50%" valign="top"><a href="https://github.com/marshal604/ai-novel-studio"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@a9e5568/assets/ai-novel-studio.gif" alt="AI Novel Studio"></a><br><a href="https://github.com/marshal604/ai-novel-studio"><b>AI Novel Studio</b></a><br><sub>Four AI agents write a novel together, replayed as a pixel-art office</sub></td>
+<td width="50%" valign="top"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@e8eeb88/assets/digimon.webp" alt="Digimon Survivor"><br><b>Digimon Survivor</b><br><sub>Survivors-style fan game with anime evolutions and 100 AI-drawn characters</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/marshal604/ai-novel-studio"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@e8eeb88/assets/ai-novel-studio.webp" alt="AI Novel Studio"></a><br><a href="https://github.com/marshal604/ai-novel-studio"><b>AI Novel Studio</b></a><br><sub>Four AI agents write a novel together, replayed as a pixel-art office</sub></td>
 </tr>
 <tr>
-<td width="50%" valign="top"><a href="https://github.com/marshal604/mango-orchard-defense"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@a9e5568/assets/mango.gif" alt="Mango Orchard Defense"></a><br><a href="https://github.com/marshal604/mango-orchard-defense"><b>Mango Orchard Defense</b></a><br><sub>Original pixel-art game in a Taiwanese mango orchard</sub></td>
-<td width="50%" valign="top"><a href="https://github.com/marshal604/ai-shorts"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@a9e5568/assets/ai-shorts.gif" alt="AI Shorts"></a><br><a href="https://github.com/marshal604/ai-shorts"><b>AI Shorts</b></a><br><sub>One long recording in, ready-to-post vertical shorts out</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/marshal604/mango-orchard-defense"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@e8eeb88/assets/mango.webp" alt="Mango Orchard Defense"></a><br><a href="https://github.com/marshal604/mango-orchard-defense"><b>Mango Orchard Defense</b></a><br><sub>Original pixel-art game in a Taiwanese mango orchard</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/marshal604/ai-shorts"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@e8eeb88/assets/ai-shorts.webp" alt="AI Shorts"></a><br><a href="https://github.com/marshal604/ai-shorts"><b>AI Shorts</b></a><br><sub>One long recording in, ready-to-post vertical shorts out</sub></td>
 </tr>
 <tr>
-<td width="50%" valign="top"><a href="https://github.com/marshal604/at-badminton-landing"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@a9e5568/assets/at-badminton.gif" alt="AT Badminton Cup"></a><br><a href="https://github.com/marshal604/at-badminton-landing"><b>AT Badminton Cup</b></a><br><sub>Promo and live-scoring site for my badminton club's tournament</sub></td>
-<td width="50%" valign="top"><a href="https://github.com/marshal604/stock-news-radar"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@a9e5568/assets/stock-news-radar.gif" alt="stock-news-radar"></a><br><a href="https://github.com/marshal604/stock-news-radar"><b>stock-news-radar</b></a><br><sub>LLM news alerts that are cross-checked before they are posted</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/marshal604/at-badminton-landing"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@e8eeb88/assets/at-badminton.webp" alt="AT Badminton Cup"></a><br><a href="https://github.com/marshal604/at-badminton-landing"><b>AT Badminton Cup</b></a><br><sub>Promo and live-scoring site for my badminton club's tournament</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/marshal604/stock-news-radar"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@e8eeb88/assets/stock-news-radar.webp" alt="stock-news-radar"></a><br><a href="https://github.com/marshal604/stock-news-radar"><b>stock-news-radar</b></a><br><sub>LLM news alerts that are cross-checked before they are posted</sub></td>
 </tr>
 </table>
 
