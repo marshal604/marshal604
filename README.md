@@ -12,6 +12,16 @@ and payments to performance and observability. These days I build games and tool
 
 ## 🤖 AI-built projects
 
+### 🏢 [AI Novel Studio](https://github.com/marshal604/ai-novel-studio)
+
+A four-role AI editorial office (editor-in-chief, writer, worldbuilder, critic) that writes novels inside Claude Code,
+and a pixel-art office that replays the team at work: kickoff meetings, drafting, parallel reviews, revisions and
+sign-off. I measured the first version's runs and redesigned the workflow with Codex as a reviewer: one-shot
+subagents, structured JSON reviews and a small CLI for the bookkeeping cut cost per chapter by 43% ($1.54 → $0.87).
+`Claude Code` `Node.js` `Phaser` `TypeScript`
+
+<img src="https://raw.githubusercontent.com/marshal604/ai-novel-studio/main/office/docs/media/office-timelapse.gif" width="640" alt="AI Novel Studio office time-lapse">
+
 ### 🥭 [Mango Orchard Defense](https://github.com/marshal604/mango-orchard-defense)
 
 A top-down pixel-art web game set in a Taiwanese mango orchard: harvest mangoes, chase off thieving Formosan
