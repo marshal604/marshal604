@@ -54,6 +54,15 @@ domain knowledge.
 
 <img src="https://raw.githubusercontent.com/marshal604/ai-shorts/main/docs/media/reel.gif" width="640" alt="AI Shorts reel">
 
+### 🏸 [AT Badminton Cup](https://github.com/marshal604/at-badminton-landing)
+
+Promo and live-scoring site for my badminton club's in-house doubles tournament: rules, prizes, player cards, a
+round-robin schedule with live scores and standings, and a finals bracket, with an admin scoring mode synced to
+Google Sheets. [Live site](https://marshal604.github.io/at-badminton-landing/2026-02-07)
+`React` `Vite` `Google Apps Script` `GitHub Pages`
+
+<img src="https://raw.githubusercontent.com/marshal604/at-badminton-landing/main/docs/media/event-page.gif" width="640" alt="AT Badminton Cup event page">
+
 ## 🧰 Open source & earlier work
 
 - [**asana-style-extension**](https://github.com/marshal604/asana-style-extension) — Chrome extension for Asana, still in use · [Chrome Web Store](https://chromewebstore.google.com/detail/asana-helper/plhefljdadpkcldpmlaihiaeolncaghj)
