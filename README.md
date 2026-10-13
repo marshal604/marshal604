@@ -8,8 +8,6 @@ and payments to performance and observability. These days I build games and tool
 [![CodePen](https://img.shields.io/badge/CodePen-marshal604-000?logo=codepen&logoColor=white)](https://codepen.io/marshal604)
 [![Email](https://img.shields.io/badge/Email-marshal604%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:marshal604@gmail.com)
 
-**English** · [繁體中文](#繁體中文)
-
 ---
 
 ## 🤖 AI-built projects
@@ -70,20 +68,3 @@ Selected impact at AmazingTalker:
 - Regular tech talks to 30+ engineers on WebRTC, micro-frontends, XSS prevention and GraphQL caching
 
 **Stack:** TypeScript · React · Vue · Angular · Node.js · Electron · WebRTC · AWS · GraphQL · Phaser · Python
-
----
-
-## 繁體中文
-
-**資深軟體工程師 · 台北** — 9 年以上 Web 產品經驗，做過即時影音（WebRTC）、金流、效能優化與可觀測性。
-最近專注在 **和 AI agent 一起開發**（Claude Code、Codex），用它做遊戲和工具，並把有效的做法整理下來。
-
-**AI 作品**
-
-- 🥭 **[芒果園保衛戰](https://github.com/marshal604/mango-orchard-defense)**：台灣芒果園主題的像素風網頁遊戲，採芒果、趕獼猴、擺攤、打倒猴王。原創遊戲，角色是 AI 生成的 sprite sheet，經自製產線切格對齊。
-- 🦖 **數碼倖存者（同人作品，私人 repo）**：數碼寶貝同人割草遊戲。從幼年期培育夥伴，在數碼世界的怪潮中存活，照 1999 年動畫路線選擇進化，配上進化／超進化／究極進化演出；學會的招式會隨機施放、還能連擊，一路打 Boss、闖數碼裂縫直到最終審判，100 隻角色都有 AI 生成的走路、攻擊、待機動畫。
-  > **為什麼是私人 repo：** 數碼寶貝的角色、名稱與招式屬於萬代、東映動畫與本鄉明嘉，這是非商業的同人作品，所以不公開散布原始碼；如有需要，歡迎聯絡我現場展示程式碼與背後的 AI 開發流程。
-- 📰 **[stock-news-radar](https://github.com/marshal604/stock-news-radar)**：設計成「不會亂講話」的 LLM 新聞雷達：雙模型交叉驗證、引用必須逐字對得上原文、關鍵字與 LLM 雙路比對、數字防呆與回歸測試集，分級推送中文摘要到 Discord。
-
-**經歷**：AmazingTalker 資深軟體工程師（2021–2026）· ViewSonic 前端工程師 · Genie Network 軟體工程師 · SunNet Tech 軟體工程師。
-**學歷**：國立高雄第一科技大學 電腦與通訊工程系（2011–2015）
