@@ -15,7 +15,7 @@ and payments to performance and observability. These days I build games and tool
 
 ## 🤖 AI-built projects
 
-### 🥭 Mango Orchard Defense · [repo](https://github.com/marshal604/mango-orchard-defense)
+### 🥭 [Mango Orchard Defense](https://github.com/marshal604/mango-orchard-defense)
 
 A top-down pixel-art web game set in a Taiwanese mango orchard: harvest mangoes, chase off thieving Formosan
 macaques, sell at a roadside stand, hire workers and defeat the Monkey King. Original game; characters are
@@ -34,7 +34,7 @@ active slot, branching 1999-anime evolution lines with cutscenes, canonical atta
 
 <img src="assets/digimon-survivor.gif" width="640" alt="Digimon Survivor gameplay">
 
-### 📰 stock-news-radar · [repo](https://github.com/marshal604/stock-news-radar)
+### 📰 [stock-news-radar](https://github.com/marshal604/stock-news-radar)
 
 An LLM news radar built to **not hallucinate**: multi-source polling (SEC EDGAR, Finviz, Google News), a primary
 model cross-checked by a different auditor model, verbatim-quote oracles, keyword-vs-LLM differential checks,
