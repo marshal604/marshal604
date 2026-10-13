@@ -32,7 +32,7 @@ active slot, branching 1999-anime evolution lines with cutscenes, canonical atta
 (walk / attack / idle sheets for 100 characters). Recorded with a frame-stepped 60 fps demo director.
 `TypeScript` `Canvas` `Codex image gen` `Playwright` `ffmpeg` · code is private because of the Digimon IP.
 
-<img src="assets/digimon-survivor.gif" width="640" alt="Digimon Survivor gameplay">
+<img src="https://raw.githubusercontent.com/marshal604/marshal604/main/assets/digimon-survivor.gif" width="640" alt="Digimon Survivor gameplay">
 
 ### 📰 [stock-news-radar](https://github.com/marshal604/stock-news-radar)
 
@@ -41,12 +41,11 @@ model cross-checked by a different auditor model, verbatim-quote oracles, keywor
 numeric guardrails and a golden-set regression suite, posting tiered alerts with Chinese summaries to Discord.
 `Python` `Claude` `GitHub Actions` · 129 tests
 
-<img src="assets/stock-news-radar-alert.png" width="640" alt="Discord alert from stock-news-radar">
+<img src="https://raw.githubusercontent.com/marshal604/marshal604/main/assets/stock-news-radar-alert.png" width="640" alt="Discord alert from stock-news-radar">
 
 ## 🧰 Open source & earlier work
 
 - [**asana-style-extension**](https://github.com/marshal604/asana-style-extension) — Chrome extension for Asana, still in use · [Chrome Web Store](https://chromewebstore.google.com/detail/asana-helper/plhefljdadpkcldpmlaihiaeolncaghj)
-- [**react-game-dialogue**](https://github.com/marshal604/react-game-dialogue) — dialogue-system UI kit for React
 - [**resume-generator**](https://github.com/marshal604/resume-generator) — the resume template generator I used early in my career
 - [**blog**](https://github.com/marshal604/blog) / [blog.hubertyang.com](https://blog.hubertyang.com/) — writing practice on frontend and engineering
 
