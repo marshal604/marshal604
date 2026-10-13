@@ -21,6 +21,10 @@ and payments to performance and observability. These days I build games and tool
 <td width="50%" valign="top"><a href="https://github.com/marshal604/mango-orchard-defense"><img src="https://raw.githubusercontent.com/marshal604/mango-orchard-defense/main/docs/media/gameplay.gif" alt="Mango Orchard Defense"></a><br><a href="https://github.com/marshal604/mango-orchard-defense"><b>Mango Orchard Defense</b></a><br><sub>Original pixel-art game in a Taiwanese mango orchard</sub></td>
 <td width="50%" valign="top"><a href="https://github.com/marshal604/ai-shorts"><img src="https://raw.githubusercontent.com/marshal604/ai-shorts/main/docs/media/reel.gif" alt="AI Shorts"></a><br><a href="https://github.com/marshal604/ai-shorts"><b>AI Shorts</b></a><br><sub>One long recording in, ready-to-post vertical shorts out</sub></td>
 </tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/marshal604/at-badminton-landing"><img src="https://raw.githubusercontent.com/marshal604/at-badminton-landing/main/docs/media/event-page.gif" alt="AT Badminton Cup"></a><br><a href="https://github.com/marshal604/at-badminton-landing"><b>AT Badminton Cup</b></a><br><sub>Promo and live-scoring site for my badminton club's tournament</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/marshal604/stock-news-radar"><img src="https://raw.githubusercontent.com/marshal604/marshal604/main/assets/stock-news-radar-alert.png" alt="stock-news-radar"></a><br><a href="https://github.com/marshal604/stock-news-radar"><b>stock-news-radar</b></a><br><sub>LLM news alerts that are cross-checked before they are posted</sub></td>
+</tr>
 </table>
 
 ## 🤖 AI-built projects
@@ -64,8 +68,6 @@ An LLM news radar built to **not hallucinate**: multi-source polling (SEC EDGAR,
 model cross-checked by a different auditor model, verbatim-quote oracles, keyword-vs-LLM differential checks,
 numeric guardrails and a golden-set regression suite, posting tiered alerts with Chinese summaries to Discord.
 `Python` `Claude` `GitHub Actions` · 129 tests
-
-<img src="https://raw.githubusercontent.com/marshal604/marshal604/main/assets/stock-news-radar-alert.png" width="640" alt="Discord alert from stock-news-radar">
 
 ## 🧰 Other projects
 
