@@ -23,7 +23,7 @@ and payments to performance and observability. These days I build games and tool
 </tr>
 <tr>
 <td width="50%" valign="top"><a href="https://github.com/marshal604/at-badminton-landing"><img src="https://raw.githubusercontent.com/marshal604/at-badminton-landing/main/docs/media/event-page.gif" alt="AT Badminton Cup"></a><br><a href="https://github.com/marshal604/at-badminton-landing"><b>AT Badminton Cup</b></a><br><sub>Promo and live-scoring site for my badminton club's tournament</sub></td>
-<td width="50%" valign="top"><a href="https://github.com/marshal604/stock-news-radar"><img src="https://raw.githubusercontent.com/marshal604/marshal604/main/assets/stock-news-radar-alert.png" alt="stock-news-radar"></a><br><a href="https://github.com/marshal604/stock-news-radar"><b>stock-news-radar</b></a><br><sub>LLM news alerts that are cross-checked before they are posted</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/marshal604/stock-news-radar"><img src="https://raw.githubusercontent.com/marshal604/marshal604/main/assets/stock-news-radar.gif" alt="stock-news-radar"></a><br><a href="https://github.com/marshal604/stock-news-radar"><b>stock-news-radar</b></a><br><sub>LLM news alerts that are cross-checked before they are posted</sub></td>
 </tr>
 </table>
 
