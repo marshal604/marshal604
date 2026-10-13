@@ -5,7 +5,6 @@ and payments to performance and observability. These days I build games and tool
 (Claude Code, Codex) and write down what works.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Hubert%20Yang-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hubert-yang-01b9a51ab/)
-[![Blog](https://img.shields.io/badge/Blog-blog.hubertyang.com-222?logo=rss&logoColor=white)](https://blog.hubertyang.com/)
 [![CodePen](https://img.shields.io/badge/CodePen-marshal604-000?logo=codepen&logoColor=white)](https://codepen.io/marshal604)
 [![Email](https://img.shields.io/badge/Email-marshal604%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:marshal604@gmail.com)
 
@@ -47,7 +46,6 @@ numeric guardrails and a golden-set regression suite, posting tiered alerts with
 
 - [**asana-style-extension**](https://github.com/marshal604/asana-style-extension) — Chrome extension for Asana, still in use · [Chrome Web Store](https://chromewebstore.google.com/detail/asana-helper/plhefljdadpkcldpmlaihiaeolncaghj)
 - [**resume-generator**](https://github.com/marshal604/resume-generator) — the resume template generator I used early in my career
-- [**blog**](https://github.com/marshal604/blog) / [blog.hubertyang.com](https://blog.hubertyang.com/) — writing practice on frontend and engineering
 
 ## 💼 Experience
 
