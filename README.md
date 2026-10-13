@@ -17,7 +17,7 @@ and payments to performance and observability. These days I build games and tool
 A top-down pixel-art web game set in a Taiwanese mango orchard: harvest mangoes, chase off thieving Formosan
 macaques, sell at a roadside stand, hire workers and defeat the Monkey King. Original game; characters are
 AI-generated sprite sheets cut and aligned by a custom pipeline.
-`Vite` `React` `Phaser` `TypeScript` · ▶ [gameplay video](https://github.com/marshal604/mango-orchard-defense/blob/main/docs/media/gameplay.mp4)
+`Vite` `React` `Phaser` `TypeScript`
 
 <img src="https://raw.githubusercontent.com/marshal604/mango-orchard-defense/main/docs/media/gameplay.gif" width="640" alt="Mango Orchard Defense gameplay">
 
