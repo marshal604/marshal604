@@ -27,7 +27,7 @@ and payments to performance and observability. These days I build games and tool
 </tr>
 </table>
 
-## 🚀 Projects
+## Projects
 
 ### 🦖 Digimon Survivor (fan project, private)
 
