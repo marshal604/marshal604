@@ -50,7 +50,7 @@ A CLI that turns one long, unedited trading-analysis screen recording into sever
 per trade: spoken anchor phrases locate each trade, a category (vocabulary, story skeleton, music) drives the plan,
 an LLM writes the caption cards and ffmpeg renders the result. The engine knows no topic; categories hold all the
 domain knowledge.
-`TypeScript` `ffmpeg` `whisper.cpp` `Claude` · ▶ [reel with music](https://github.com/marshal604/ai-shorts/blob/main/docs/media/reel.mp4)
+`TypeScript` `ffmpeg` `whisper.cpp` `Claude`
 
 <img src="https://raw.githubusercontent.com/marshal604/ai-shorts/main/docs/media/reel.gif" width="640" alt="AI Shorts reel">
 
