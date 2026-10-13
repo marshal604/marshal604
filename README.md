@@ -15,7 +15,7 @@ and payments to performance and observability. These days I build games and tool
 <table>
 <tr>
 <td width="50%" valign="top"><img src="https://raw.githubusercontent.com/marshal604/marshal604/main/assets/digimon-survivor.gif" alt="Digimon Survivor"><br><b>Digimon Survivor</b><br><sub>Survivors-style fan game with anime evolutions and 100 AI-drawn characters</sub></td>
-<td width="50%" valign="top"><a href="https://github.com/marshal604/ai-novel-studio"><img src="https://raw.githubusercontent.com/marshal604/ai-novel-studio/main/office/docs/media/office-timelapse.gif?v=2" alt="AI Novel Studio"></a><br><a href="https://github.com/marshal604/ai-novel-studio"><b>AI Novel Studio</b></a><br><sub>Four AI agents write a novel together, replayed as a pixel-art office</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/marshal604/ai-novel-studio"><img src="https://raw.githubusercontent.com/marshal604/marshal604/main/assets/ai-novel-studio.gif" alt="AI Novel Studio"></a><br><a href="https://github.com/marshal604/ai-novel-studio"><b>AI Novel Studio</b></a><br><sub>Four AI agents write a novel together, replayed as a pixel-art office</sub></td>
 </tr>
 <tr>
 <td width="50%" valign="top"><a href="https://github.com/marshal604/mango-orchard-defense"><img src="https://raw.githubusercontent.com/marshal604/mango-orchard-defense/main/docs/media/gameplay.gif" alt="Mango Orchard Defense"></a><br><a href="https://github.com/marshal604/mango-orchard-defense"><b>Mango Orchard Defense</b></a><br><sub>Original pixel-art game in a Taiwanese mango orchard</sub></td>
