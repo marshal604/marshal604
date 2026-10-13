@@ -14,7 +14,7 @@ and payments to performance and observability. These days I build games and tool
 
 <table>
 <tr>
-<td width="50%" valign="top"><img src="https://raw.githubusercontent.com/marshal604/marshal604/main/assets/digimon-survivor.gif?v=4" alt="Digimon Survivor"><br><b>Digimon Survivor</b><br><sub>Survivors-style fan game with anime evolutions and 100 AI-drawn characters</sub></td>
+<td width="50%" valign="top"><img src="https://raw.githubusercontent.com/marshal604/marshal604/main/assets/digimon.gif" alt="Digimon Survivor"><br><b>Digimon Survivor</b><br><sub>Survivors-style fan game with anime evolutions and 100 AI-drawn characters</sub></td>
 <td width="50%" valign="top"><a href="https://github.com/marshal604/ai-novel-studio"><img src="https://raw.githubusercontent.com/marshal604/marshal604/main/assets/ai-novel-studio.gif?v=4" alt="AI Novel Studio"></a><br><a href="https://github.com/marshal604/ai-novel-studio"><b>AI Novel Studio</b></a><br><sub>Four AI agents write a novel together, replayed as a pixel-art office</sub></td>
 </tr>
 <tr>
