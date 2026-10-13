@@ -12,7 +12,7 @@ and payments to performance and observability. These days I build games and tool
 
 ## ✨ Highlights
 
-<a href="HIGHLIGHTS.md"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@acd9a1d/assets/highlights.gif" alt="Highlights: Digimon Survivor, AI Novel Studio, Mango Orchard Defense, AI Shorts, AT Badminton Cup, stock-news-radar"></a>
+<a href="HIGHLIGHTS.md"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@HASH/assets/highlights.gif" alt="Highlights: Digimon Survivor, AI Novel Studio, Mango Orchard Defense, AI Shorts, AT Badminton Cup, stock-news-radar"></a>
 
 ## Projects
 
