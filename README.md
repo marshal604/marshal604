@@ -27,7 +27,7 @@ and payments to performance and observability. These days I build games and tool
 </tr>
 </table>
 
-## 🤖 AI-built projects
+## 🚀 Projects
 
 ### 🦖 Digimon Survivor (fan project, private)
 
@@ -69,9 +69,15 @@ model cross-checked by a different auditor model, verbatim-quote oracles, keywor
 numeric guardrails and a golden-set regression suite, posting tiered alerts with Chinese summaries to Discord.
 `Python` `Claude` `GitHub Actions` · 129 tests
 
+### 🏸 [AT Badminton Cup](https://github.com/marshal604/at-badminton-landing)
+
+Promo and live-scoring site for my badminton club's in-house doubles tournament: rules, prizes, player cards, a
+round-robin schedule with live scores and standings, and a finals bracket, with an admin scoring mode synced to
+Google Sheets. [Live site](https://marshal604.github.io/at-badminton-landing/2026-02-07)
+`React` `Vite` `Google Apps Script` `GitHub Pages`
+
 ## 🧰 Other projects
 
-- [**AT Badminton Cup**](https://github.com/marshal604/at-badminton-landing) — promo and live-scoring site for my badminton club's tournament (round-robin schedule, live standings, Google Sheets scoring) · [live site](https://marshal604.github.io/at-badminton-landing/2026-02-07)
 - [**asana-style-extension**](https://github.com/marshal604/asana-style-extension) — Chrome extension for Asana, still in use · [Chrome Web Store](https://chromewebstore.google.com/detail/asana-helper/plhefljdadpkcldpmlaihiaeolncaghj)
 - [**resume-generator**](https://github.com/marshal604/resume-generator) — the resume template generator I used early in my career
 
