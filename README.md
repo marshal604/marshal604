@@ -10,26 +10,20 @@ and payments to performance and observability. These days I build games and tool
 
 ---
 
+## ✨ Highlights
+
+<table>
+<tr>
+<td width="50%" valign="top"><img src="https://raw.githubusercontent.com/marshal604/marshal604/main/assets/digimon-survivor.gif" alt="Digimon Survivor"><br><b>Digimon Survivor</b><br><sub>Survivors-style fan game with anime evolutions and 100 AI-drawn characters</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/marshal604/ai-novel-studio"><img src="https://raw.githubusercontent.com/marshal604/ai-novel-studio/main/office/docs/media/office-timelapse.gif" alt="AI Novel Studio"></a><br><a href="https://github.com/marshal604/ai-novel-studio"><b>AI Novel Studio</b></a><br><sub>Four AI agents write a novel together, replayed as a pixel-art office</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/marshal604/mango-orchard-defense"><img src="https://raw.githubusercontent.com/marshal604/mango-orchard-defense/main/docs/media/gameplay.gif" alt="Mango Orchard Defense"></a><br><a href="https://github.com/marshal604/mango-orchard-defense"><b>Mango Orchard Defense</b></a><br><sub>Original pixel-art game in a Taiwanese mango orchard</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/marshal604/ai-shorts"><img src="https://raw.githubusercontent.com/marshal604/ai-shorts/main/docs/media/reel.gif" alt="AI Shorts"></a><br><a href="https://github.com/marshal604/ai-shorts"><b>AI Shorts</b></a><br><sub>One long recording in, ready-to-post vertical shorts out</sub></td>
+</tr>
+</table>
+
 ## 🤖 AI-built projects
-
-### 🏢 [AI Novel Studio](https://github.com/marshal604/ai-novel-studio)
-
-A four-role AI editorial office (editor-in-chief, writer, worldbuilder, critic) that writes novels inside Claude Code,
-and a pixel-art office that replays the team at work: kickoff meetings, drafting, parallel reviews, revisions and
-sign-off. I measured the first version's runs and redesigned the workflow with Codex as a reviewer: one-shot
-subagents, structured JSON reviews and a small CLI for the bookkeeping cut cost per chapter by 43% ($1.54 → $0.87).
-`Claude Code` `Node.js` `Phaser` `TypeScript`
-
-<img src="https://raw.githubusercontent.com/marshal604/ai-novel-studio/main/office/docs/media/office-timelapse.gif" width="640" alt="AI Novel Studio office time-lapse">
-
-### 🥭 [Mango Orchard Defense](https://github.com/marshal604/mango-orchard-defense)
-
-A top-down pixel-art web game set in a Taiwanese mango orchard: harvest mangoes, chase off thieving Formosan
-macaques, sell at a roadside stand, hire workers and defeat the Monkey King. Original game; characters are
-AI-generated sprite sheets cut and aligned by a custom pipeline.
-`Vite` `React` `Phaser` `TypeScript`
-
-<img src="https://raw.githubusercontent.com/marshal604/mango-orchard-defense/main/docs/media/gameplay.gif" width="640" alt="Mango Orchard Defense gameplay">
 
 ### 🦖 Digimon Survivor (fan project, private)
 
@@ -39,11 +33,30 @@ you learn joins a random pool that can fire two or three at once, bosses and leg
 a final Judgment, and all 100 characters have AI-generated walk / attack / idle sprites.
 `TypeScript` `Canvas` `Codex image gen` `Playwright` `ffmpeg`
 
-> **Why the repo is private:** Digimon and its characters, names and attacks belong to Bandai / Toei Animation /
-> Akiyoshi Hongo. This is a non-commercial fan project, so I don't redistribute it publicly. Happy to walk through
-> the code and the AI workflow behind it on request.
+<sub>Code is private: Digimon names, characters and attacks belong to Bandai / Toei Animation / Akiyoshi Hongo, so this non-commercial fan project isn't redistributed. Happy to walk through it on request.</sub>
 
-<img src="https://raw.githubusercontent.com/marshal604/marshal604/main/assets/digimon-survivor.gif" width="640" alt="Digimon Survivor gameplay">
+### 🏢 [AI Novel Studio](https://github.com/marshal604/ai-novel-studio)
+
+A four-role AI editorial office (editor-in-chief, writer, worldbuilder, critic) that writes novels inside Claude Code,
+and a pixel-art office that replays the team at work: kickoff meetings, drafting, parallel reviews, revisions and
+sign-off. I measured the first version's runs and redesigned the workflow with Codex as a reviewer: one-shot
+subagents, structured JSON reviews and a small CLI for the bookkeeping cut cost per chapter by 43% ($1.54 → $0.87).
+`Claude Code` `Node.js` `Phaser` `TypeScript`
+
+### 🥭 [Mango Orchard Defense](https://github.com/marshal604/mango-orchard-defense)
+
+A top-down pixel-art web game set in a Taiwanese mango orchard: harvest mangoes, chase off thieving Formosan
+macaques, sell at a roadside stand, hire workers and defeat the Monkey King. Original game; characters are
+AI-generated sprite sheets cut and aligned by a custom pipeline.
+`Vite` `React` `Phaser` `TypeScript`
+
+### ✂️ [AI Shorts](https://github.com/marshal604/ai-shorts)
+
+A CLI that turns one long, unedited trading-analysis screen recording into several ready-to-post 9:16 shorts, one
+per trade: spoken anchor phrases locate each trade, a category (vocabulary, story skeleton, music) drives the plan,
+an LLM writes the caption cards and ffmpeg renders the result. The engine knows no topic; categories hold all the
+domain knowledge.
+`TypeScript` `ffmpeg` `whisper.cpp` `Claude`
 
 ### 📰 [stock-news-radar](https://github.com/marshal604/stock-news-radar)
 
@@ -54,27 +67,9 @@ numeric guardrails and a golden-set regression suite, posting tiered alerts with
 
 <img src="https://raw.githubusercontent.com/marshal604/marshal604/main/assets/stock-news-radar-alert.png" width="640" alt="Discord alert from stock-news-radar">
 
-### ✂️ [AI Shorts](https://github.com/marshal604/ai-shorts)
+## 🧰 Other projects
 
-A CLI that turns one long, unedited trading-analysis screen recording into several ready-to-post 9:16 shorts, one
-per trade: spoken anchor phrases locate each trade, a category (vocabulary, story skeleton, music) drives the plan,
-an LLM writes the caption cards and ffmpeg renders the result. The engine knows no topic; categories hold all the
-domain knowledge.
-`TypeScript` `ffmpeg` `whisper.cpp` `Claude`
-
-<img src="https://raw.githubusercontent.com/marshal604/ai-shorts/main/docs/media/reel.gif" width="640" alt="AI Shorts reel">
-
-### 🏸 [AT Badminton Cup](https://github.com/marshal604/at-badminton-landing)
-
-Promo and live-scoring site for my badminton club's in-house doubles tournament: rules, prizes, player cards, a
-round-robin schedule with live scores and standings, and a finals bracket, with an admin scoring mode synced to
-Google Sheets. [Live site](https://marshal604.github.io/at-badminton-landing/2026-02-07)
-`React` `Vite` `Google Apps Script` `GitHub Pages`
-
-<img src="https://raw.githubusercontent.com/marshal604/at-badminton-landing/main/docs/media/event-page.gif" width="640" alt="AT Badminton Cup event page">
-
-## 🧰 Open source & earlier work
-
+- [**AT Badminton Cup**](https://github.com/marshal604/at-badminton-landing) — promo and live-scoring site for my badminton club's tournament (round-robin schedule, live standings, Google Sheets scoring) · [live site](https://marshal604.github.io/at-badminton-landing/2026-02-07)
 - [**asana-style-extension**](https://github.com/marshal604/asana-style-extension) — Chrome extension for Asana, still in use · [Chrome Web Store](https://chromewebstore.google.com/detail/asana-helper/plhefljdadpkcldpmlaihiaeolncaghj)
 - [**resume-generator**](https://github.com/marshal604/resume-generator) — the resume template generator I used early in my career
 
