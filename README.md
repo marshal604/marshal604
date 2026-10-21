@@ -36,8 +36,6 @@ existing workflow, keep humans on the decisions, and measure the result.
 | Initiative | Problem → Approach | Impact |
 |---|---|---|
 | [**AI code review → fix → CI loop**](https://github.com/marshal604/ai-code-review-sandbox) | Review is the bottleneck once agents write code faster. Every PR gets an AI review as inline comments; a human picks what to fix and comments `@claude`; the agent fixes, type-checks and pushes; CI re-checks the agent's own change. Ready to copy into any GitHub repo. | Blind seeded-bug PR: **9 / 9 caught**, plus a timezone bug I hadn't planted · **~1 min, ~$0.05** per review · CI caught a regression the agent introduced; the agent fixed it and CI went green |
-| **AI-assisted debugging workflow** · AmazingTalker | Recurring frontend / RTC bugs needed hours of manual digging. An agent workflow pulls codebase context, user logs and product metrics together. | Bug analysis cut from **hours to minutes** |
-
 <details>
 <summary><b>Lessons from the code review rollout</b></summary>
 
