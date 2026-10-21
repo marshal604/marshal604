@@ -36,8 +36,9 @@ existing workflow, keep humans on the decisions, and measure the result.
 | Initiative | Problem → Approach | Impact |
 |---|---|---|
 | [**AI code review → fix → CI loop**](https://github.com/marshal604/ai-code-review-sandbox) | Review is the bottleneck once agents write code faster. Every PR gets an AI review as inline comments; a human picks what to fix and comments `@claude`; the agent fixes, type-checks and pushes; CI re-checks the agent's own change. Ready to copy into any GitHub repo. | Blind seeded-bug PR: **9 / 9 caught**, plus a timezone bug I hadn't planted · **~1 min, ~$0.05** per review · CI caught a regression the agent introduced; the agent fixed it and CI went green |
+
 <details>
-<summary><b>Lessons from the code review rollout</b></summary>
+<summary><b>Lessons from building the code review loop</b></summary>
 
 - The official review plugin silently skipped its multi-agent pipeline in CI and caught 1 of 4 seeded bugs; Claude Code's built-in `/code-review high` caught 4 of 4 on the same PR.
 - `actions/checkout@v6` leaves the workflow token in place, so agent pushes never trigger CI. I traced it to [claude-code-action#1721](https://github.com/anthropics/claude-code-action/issues/1721) and pinned v5 as a workaround.
