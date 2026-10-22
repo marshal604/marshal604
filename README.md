@@ -35,7 +35,7 @@ existing workflow, keep humans on the decisions, and measure the result.
 <!-- Add one row per initiative, newest first. Keep "Impact" to measured numbers. -->
 | Initiative | Problem → Approach | Impact |
 |---|---|---|
-| [**AI code review, `@claude` fixes and auto-fix**](https://github.com/marshal604/ai-dev-workflows) | Review is the bottleneck once agents write code faster. Every PR gets an AI review; `@claude` applies fixes on request; issues from monitors, failing CI or people become verified draft PRs. The agent only edits with a read-only token; the workflow verifies and publishes; branch protection keeps every merge with a human. | Blind seeded-bug PR: **9 / 9** planted issues found · issue to verified draft PR in **~1.5–2.5 min** · 9 issues + 1 PR fired at once all handled in **~3 min** · 21 scenarios tested, 19 as expected |
+| [**AI code review, `@claude` fixes and auto-fix**](https://github.com/marshal604/ai-dev-workflows) | Review is the bottleneck once agents write code faster. Every PR gets an AI review; `@claude` applies fixes on request; issues from monitors, failing CI or people become verified draft PRs. The agent only edits with a read-only token; the workflow verifies and publishes; branch protection keeps every merge with a human. Slack pings the owner only when a person must act (revert a broken main, review, take over), and a weekday digest keeps the queue visible. | Blind seeded-bug PR: **9 / 9** planted issues found · issue to verified draft PR in **~1.5–2.5 min** · 9 issues + 1 PR fired at once all handled in **~3 min** · broken main: revert prompt and fix PR in **~100 s**, everything auto-closed **46 s** after recovery · 25 scenarios tested, 23 as expected |
 
 <details>
 <summary><b>Lessons from building it</b></summary>
@@ -45,6 +45,8 @@ existing workflow, keep humans on the decisions, and measure the result.
 - Letting the agent run git itself made runs fail silently; moving branch, push and PR creation into the workflow fixed it.
 - AI fixes skip AI review by design, so CI and branch protection are the real safety net for agent-made changes.
 - Over-broad `CLAUDE.md` rules produce false positives. Scope every rule to where it applies.
+- A Claude Code release-day download limit (HTTP 429) failed three runs in a row. Every action is now pinned to a commit SHA and upgraded through Dependabot PRs.
+- The first notification design announced every incident, and most of those posts asked nobody to do anything. Slack now carries only messages that need a person, following SRE alerting practice.
 
 </details>
 
