@@ -31,11 +31,11 @@ Selected impact at AmazingTalker:
 ## 🚀 AI for Team Productivity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/marshal604/marshal604@2b2373a/assets/ai-flow-dark.svg">
-  <img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@2b2373a/assets/ai-flow-light.svg" alt="Something breaks, Claude fixes it with read-only access, the workflow verifies, a draft PR is opened, a human approves">
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/marshal604/marshal604@bf7523b/assets/ai-flow-dark.svg">
+  <img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@bf7523b/assets/ai-flow-light.svg" alt="Code review: a PR is opened, Claude reviews it, a human approves. Auto-fix: something breaks, Claude fixes it with read-only access, the workflow verifies, a draft PR is opened, a human approves">
 </picture>
 
-[**ai-dev-workflows**](https://github.com/marshal604/ai-dev-workflows) · also AI review on every PR and `@claude` fixes on request.
+[**ai-dev-workflows**](https://github.com/marshal604/ai-dev-workflows) · reviewers can also ask `@claude` to fix things on the PR.
 
 ## Side projects
 
