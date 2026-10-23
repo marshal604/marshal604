@@ -10,19 +10,6 @@ and payments to performance and observability. These days I build games and tool
 
 ---
 
-## 🚀 AI for Team Productivity
-
-[**ai-dev-workflows**](https://github.com/marshal604/ai-dev-workflows): AI code review, `@claude` fixes and auto-fix on GitHub Actions.
-
-| When | What the team gets | Result |
-|---|---|---|
-| A PR is opened | An AI review with inline comments | 9 / 9 seeded bugs found in a blind test |
-| A reviewer comments `@claude fix this` | The fix pushed to the same PR, CI re-run | |
-| Main breaks | The pusher pinged to revert, a fix PR opened | **~100 s** |
-| An alert or bug report arrives | A verified draft PR, the owner pinged in Slack | **~2 min** |
-
-Every merge still needs a human approval.
-
 ## 💼 Experience
 
 | Role | Company | Period |
@@ -40,6 +27,15 @@ Selected impact at AmazingTalker:
 - **TTFB −70%** (400 ms → 120 ms) on a Lambda@Edge caching flow; **CI/CD −62%** (18 → 7 min); **bundle −25%**
 - Moved **350 TB** of recordings to S3 with an SQS-based Node.js workflow; observability with OpenTelemetry/Grafana and New Relic
 - Consolidated 30+ payment components (Stripe, PayPal, TapPay, Alipay, dLocal …) into 5 reusable modules
+
+## 🚀 AI for Team Productivity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/marshal604/marshal604@2b2373a/assets/ai-flow-dark.svg">
+  <img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@2b2373a/assets/ai-flow-light.svg" alt="Something breaks, Claude fixes it with read-only access, the workflow verifies, a draft PR is opened, a human approves">
+</picture>
+
+[**ai-dev-workflows**](https://github.com/marshal604/ai-dev-workflows) · AI review on every PR (9 / 9 seeded bugs found) and `@claude` fixes on request.
 
 ## Side projects
 
