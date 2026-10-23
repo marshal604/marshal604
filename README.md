@@ -35,7 +35,7 @@ Selected impact at AmazingTalker:
   <img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@2b2373a/assets/ai-flow-light.svg" alt="Something breaks, Claude fixes it with read-only access, the workflow verifies, a draft PR is opened, a human approves">
 </picture>
 
-[**ai-dev-workflows**](https://github.com/marshal604/ai-dev-workflows) · AI review on every PR (9 / 9 seeded bugs found) and `@claude` fixes on request.
+[**ai-dev-workflows**](https://github.com/marshal604/ai-dev-workflows) · also AI review on every PR and `@claude` fixes on request.
 
 ## Side projects
 
