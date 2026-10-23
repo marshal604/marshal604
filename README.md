@@ -10,99 +10,18 @@ and payments to performance and observability. These days I build games and tool
 
 ---
 
-## ✨ Highlights
-
-<table>
-<tr>
-<td width="50%" valign="top"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@e8eeb88/assets/digimon.webp" alt="Digimon Survivor"><br><b>Digimon Survivor</b><br><sub>Survivors-style fan game with anime evolutions and 100 AI-drawn characters</sub></td>
-<td width="50%" valign="top"><a href="https://github.com/marshal604/ai-novel-studio"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@e8eeb88/assets/ai-novel-studio.webp" alt="AI Novel Studio"></a><br><a href="https://github.com/marshal604/ai-novel-studio"><b>AI Novel Studio</b></a><br><sub>Four AI agents write a novel together, replayed as a pixel-art office</sub></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><a href="https://github.com/marshal604/mango-orchard-defense"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@e8eeb88/assets/mango.webp" alt="Mango Orchard Defense"></a><br><a href="https://github.com/marshal604/mango-orchard-defense"><b>Mango Orchard Defense</b></a><br><sub>Original pixel-art game in a Taiwanese mango orchard</sub></td>
-<td width="50%" valign="top"><a href="https://github.com/marshal604/ai-shorts"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@e8eeb88/assets/ai-shorts.webp" alt="AI Shorts"></a><br><a href="https://github.com/marshal604/ai-shorts"><b>AI Shorts</b></a><br><sub>One long recording in, ready-to-post vertical shorts out</sub></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><a href="https://github.com/marshal604/at-badminton-landing"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@e8eeb88/assets/at-badminton.webp" alt="AT Badminton Cup"></a><br><a href="https://github.com/marshal604/at-badminton-landing"><b>AT Badminton Cup</b></a><br><sub>Promo and live-scoring site for my badminton club's tournament</sub></td>
-<td width="50%" valign="top"><a href="https://github.com/marshal604/stock-news-radar"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@e8eeb88/assets/stock-news-radar.webp" alt="stock-news-radar"></a><br><a href="https://github.com/marshal604/stock-news-radar"><b>stock-news-radar</b></a><br><sub>LLM news alerts that are cross-checked before they are posted</sub></td>
-</tr>
-</table>
-
 ## 🚀 AI for Team Productivity
 
-How I bring AI agents into a team's day-to-day engineering: pick a bottleneck, wire an agent into the
-existing workflow, keep humans on the decisions, and measure the result.
+[**ai-dev-workflows**](https://github.com/marshal604/ai-dev-workflows): AI code review, `@claude` fixes and auto-fix on GitHub Actions.
 
-<!-- Add one row per initiative, newest first. Keep "Impact" to measured numbers. -->
-| Initiative | Problem → Approach | Impact |
+| When | What the team gets | Result |
 |---|---|---|
-| [**AI code review, `@claude` fixes and auto-fix**](https://github.com/marshal604/ai-dev-workflows) | Review is the bottleneck once agents write code faster. Every PR gets an AI review; `@claude` applies fixes on request; issues from monitors, failing CI or people become verified draft PRs. The agent only edits with a read-only token; the workflow verifies and publishes; branch protection keeps every merge with a human. Slack pings the owner only when a person must act (revert a broken main, review, take over), and a weekday digest keeps the queue visible. | Blind seeded-bug PR: **9 / 9** planted issues found · issue to verified draft PR in **~1.5–2.5 min** · 9 issues + 1 PR fired at once all handled in **~3 min** · broken main: revert prompt and fix PR in **~100 s**, everything auto-closed **46 s** after recovery · 25 scenarios tested, 23 as expected |
+| A PR is opened | An AI review with inline comments | 9 / 9 seeded bugs found in a blind test |
+| A reviewer comments `@claude fix this` | The fix pushed to the same PR, CI re-run | |
+| Main breaks | The pusher pinged to revert, a fix PR opened | **~100 s** |
+| An alert or bug report arrives | A verified draft PR, the owner pinged in Slack | **~2 min** |
 
-<details>
-<summary><b>Lessons from building it</b></summary>
-
-- The official review plugin silently skipped its multi-agent pipeline in CI and caught 1 of 4 seeded bugs; Claude Code's built-in `/code-review high` caught 4 of 4 on the same PR.
-- `actions/checkout@v6` leaves the workflow token in place, so agent pushes never trigger CI. I traced it to [claude-code-action#1721](https://github.com/anthropics/claude-code-action/issues/1721) and pinned v5 as a workaround.
-- Letting the agent run git itself made runs fail silently; moving branch, push and PR creation into the workflow fixed it.
-- AI fixes skip AI review by design, so CI and branch protection are the real safety net for agent-made changes.
-- Over-broad `CLAUDE.md` rules produce false positives. Scope every rule to where it applies.
-- A Claude Code release-day download limit (HTTP 429) failed three runs in a row. Every action is now pinned to a commit SHA and upgraded through Dependabot PRs.
-- The first notification design announced every incident, and most of those posts asked nobody to do anything. Slack now carries only messages that need a person, following SRE alerting practice.
-
-</details>
-
-## Projects
-
-### 🦖 Digimon Survivor (fan project, private)
-
-A Digimon fan-made survivors-style game: raise your partner from In-Training, survive the hordes of the Digital
-World and choose how it evolves, following the 1999 anime lines with 進化 / 超進化 / 究極進化 cutscenes. Every move
-you learn joins a random pool that can fire two or three at once, bosses and legendary rift fights escalate up to
-a final Judgment, and all 100 characters have AI-generated walk / attack / idle sprites.
-`TypeScript` `Canvas` `Codex image gen` `Playwright` `ffmpeg`
-
-<sub>Code is private: Digimon names, characters and attacks belong to Bandai / Toei Animation / Akiyoshi Hongo, so this non-commercial fan project isn't redistributed. Happy to walk through it on request.</sub>
-
-### 🏢 [AI Novel Studio](https://github.com/marshal604/ai-novel-studio)
-
-A four-role AI editorial office (editor-in-chief, writer, worldbuilder, critic) that writes novels inside Claude Code,
-and a pixel-art office that replays the team at work: kickoff meetings, drafting, parallel reviews, revisions and
-sign-off. I measured the first version's runs and redesigned the workflow with Codex as a reviewer: one-shot
-subagents, structured JSON reviews and a small CLI for the bookkeeping cut cost per chapter by 43% ($1.54 → $0.87).
-`Claude Code` `Node.js` `Phaser` `TypeScript`
-
-### 🥭 [Mango Orchard Defense](https://github.com/marshal604/mango-orchard-defense)
-
-A top-down pixel-art web game set in a Taiwanese mango orchard: harvest mangoes, chase off thieving Formosan
-macaques, sell at a roadside stand, hire workers and defeat the Monkey King. Original game; characters are
-AI-generated sprite sheets cut and aligned by a custom pipeline.
-`Vite` `React` `Phaser` `TypeScript`
-
-### ✂️ [AI Shorts](https://github.com/marshal604/ai-shorts)
-
-A CLI that turns one long, unedited trading-analysis screen recording into several ready-to-post 9:16 shorts, one
-per trade: spoken anchor phrases locate each trade, a category (vocabulary, story skeleton, music) drives the plan,
-an LLM writes the caption cards and ffmpeg renders the result. The engine knows no topic; categories hold all the
-domain knowledge.
-`TypeScript` `ffmpeg` `whisper.cpp` `Claude`
-
-### 📰 [stock-news-radar](https://github.com/marshal604/stock-news-radar)
-
-An LLM news radar built to **not hallucinate**: multi-source polling (SEC EDGAR, Finviz, Google News), a primary
-model cross-checked by a different auditor model, verbatim-quote oracles, keyword-vs-LLM differential checks,
-numeric guardrails and a golden-set regression suite, posting tiered alerts with Chinese summaries to Discord.
-`Python` `Claude` `GitHub Actions` · 129 tests
-
-### 🏸 [AT Badminton Cup](https://github.com/marshal604/at-badminton-landing)
-
-Promo and live-scoring site for my badminton club's in-house doubles tournament: rules, prizes, player cards, a
-round-robin schedule with live scores and standings, and a finals bracket, with an admin scoring mode synced to
-Google Sheets. [Live site](https://marshal604.github.io/at-badminton-landing/2026-02-07)
-`React` `Vite` `Google Apps Script` `GitHub Pages`
-
-## 🧰 Other projects
-
-- [**asana-style-extension**](https://github.com/marshal604/asana-style-extension) — Chrome extension for Asana, still in use · [Chrome Web Store](https://chromewebstore.google.com/detail/asana-helper/plhefljdadpkcldpmlaihiaeolncaghj)
-- [**resume-generator**](https://github.com/marshal604/resume-generator) — the resume template generator I used early in my career
+Every merge still needs a human approval.
 
 ## 💼 Experience
 
@@ -116,10 +35,31 @@ Google Sheets. [Live site](https://marshal604.github.io/at-badminton-landing/202
 Selected impact at AmazingTalker:
 
 - Built an internal **AI-assisted debugging workflow** (codebase context + user logs + product metrics) that cut recurring frontend/RTC bug analysis from hours to minutes
+- Regular tech talks to 30+ engineers on WebRTC, micro-frontends, XSS prevention and GraphQL caching
 - Unified TRTC and Amazon Chime into one **RTC adapter layer**, simplifying BytePlus and later Electron support
 - **TTFB −70%** (400 ms → 120 ms) on a Lambda@Edge caching flow; **CI/CD −62%** (18 → 7 min); **bundle −25%**
 - Moved **350 TB** of recordings to S3 with an SQS-based Node.js workflow; observability with OpenTelemetry/Grafana and New Relic
 - Consolidated 30+ payment components (Stripe, PayPal, TapPay, Alipay, dLocal …) into 5 reusable modules
-- Regular tech talks to 30+ engineers on WebRTC, micro-frontends, XSS prevention and GraphQL caching
+
+## Side projects
+
+Built together with AI agents (Claude Code, Codex).
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/marshal604/ai-novel-studio"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@e8eeb88/assets/ai-novel-studio.webp" alt="AI Novel Studio"></a><br><a href="https://github.com/marshal604/ai-novel-studio"><b>AI Novel Studio</b></a><br><sub>Four AI agents write a novel together; redesign cut cost per chapter 43%</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/marshal604/stock-news-radar"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@e8eeb88/assets/stock-news-radar.webp" alt="stock-news-radar"></a><br><a href="https://github.com/marshal604/stock-news-radar"><b>stock-news-radar</b></a><br><sub>LLM news alerts, cross-checked by a second model before posting</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/marshal604/ai-shorts"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@e8eeb88/assets/ai-shorts.webp" alt="AI Shorts"></a><br><a href="https://github.com/marshal604/ai-shorts"><b>AI Shorts</b></a><br><sub>One long recording in, ready-to-post vertical shorts out</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/marshal604/mango-orchard-defense"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@e8eeb88/assets/mango.webp" alt="Mango Orchard Defense"></a><br><a href="https://github.com/marshal604/mango-orchard-defense"><b>Mango Orchard Defense</b></a><br><sub>Original pixel-art game in a Taiwanese mango orchard</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/marshal604/at-badminton-landing"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@e8eeb88/assets/at-badminton.webp" alt="AT Badminton Cup"></a><br><a href="https://github.com/marshal604/at-badminton-landing"><b>AT Badminton Cup</b></a><br><sub>Promo and live-scoring site for my badminton club's tournament</sub></td>
+<td width="50%" valign="top"><img src="https://cdn.jsdelivr.net/gh/marshal604/marshal604@e8eeb88/assets/digimon.webp" alt="Digimon Survivor"><br><b>Digimon Survivor</b><br><sub>Survivors-style fan game with 100 AI-drawn characters (private)</sub></td>
+</tr>
+</table>
+
+Also: [**asana-style-extension**](https://github.com/marshal604/asana-style-extension), a Chrome extension for Asana, still in use · [Chrome Web Store](https://chromewebstore.google.com/detail/asana-helper/plhefljdadpkcldpmlaihiaeolncaghj)
 
 **Stack:** TypeScript · React · Vue · Angular · Node.js · Electron · WebRTC · AWS · GraphQL · Phaser · Python
